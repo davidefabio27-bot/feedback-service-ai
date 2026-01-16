@@ -1,0 +1,201 @@
+.:
+total 80
+-rw-r--r-- 1 theia users  1547 Jan 16 05:33 HELP.md
+-rw-r--r-- 1 theia users 11358 Jan 16 05:33 LICENSE
+-rw-r--r-- 1 theia users    25 Jan 16 05:33 README.md
+-rw-r--r-- 1 theia users 10665 Jan 16 05:33 mvnw
+-rw-r--r-- 1 theia users  7061 Jan 16 05:33 mvnw.cmd
+-rw-r--r-- 1 theia users  2327 Jan 16 05:35 pom.xml
+-rw-r--r-- 1 theia users 11200 Jan 16 06:22 sentiment_feedback_output.txt
+-rw-r--r-- 1 theia users 14937 Jan 16 06:24 sentiment_feedback_output_encoded.txt
+drwxr-sr-x 4 theia users  4096 Jan 16 05:33 src
+-rw-r--r-- 1 theia users     0 Jan 16 06:39 struttura_progetto.txt
+drwxr-sr-x 9 theia users  4096 Jan 16 06:25 target
+
+./src:
+total 8
+drwxr-sr-x 4 theia users 4096 Jan 16 05:33 main
+drwxr-sr-x 3 theia users 4096 Jan 16 05:33 test
+
+./src/main:
+total 8
+drwxr-sr-x 3 theia users 4096 Jan 16 06:16 java
+drwxr-sr-x 3 theia users 4096 Jan 16 06:19 resources
+
+./src/main/java:
+total 4
+drwxr-sr-x 3 theia users 4096 Jan 16 06:18 com
+
+./src/main/java/com:
+total 4
+drwxr-sr-x 3 theia users 4096 Jan 16 06:18 retailstore
+
+./src/main/java/com/retailstore:
+total 4
+drwxr-sr-x 5 theia users 4096 Jan 16 06:18 feedback
+
+./src/main/java/com/retailstore/feedback:
+total 16
+-rw-r--r-- 1 theia users  335 Jan 16 05:33 FeedbackServiceApplication.java
+drwxr-sr-x 2 theia users 4096 Jan 16 06:18 controller
+drwxr-sr-x 2 theia users 4096 Jan 16 06:06 model
+drwxr-sr-x 2 theia users 4096 Jan 16 06:15 service
+
+./src/main/java/com/retailstore/feedback/controller:
+total 0
+-rw-r--r-- 1 theia users 0 Jan 16 06:18 FeedbackController.java
+
+./src/main/java/com/retailstore/feedback/model:
+total 12
+-rw-r--r-- 1 theia users  960 Jan 16 06:05 EnhancedFeedback.java
+-rw-r--r-- 1 theia users 1476 Jan 16 06:04 FeedbackEntry.java
+-rw-r--r-- 1 theia users 1513 Jan 16 06:06 FeedbackSummary.java
+
+./src/main/java/com/retailstore/feedback/service:
+total 20
+-rw-r--r-- 1 theia users 10408 Jan 16 06:07 FeedbackService.java
+-rw-r--r-- 1 theia users  4154 Jan 16 06:15 GeminiService.java
+
+./src/main/resources:
+total 8
+-rw-r--r-- 1 theia users  341 Jan 16 06:02 application.properties
+drwxr-sr-x 2 theia users 4096 Jan 16 06:21 templates
+
+./src/main/resources/templates:
+total 16
+-rw-r--r-- 1 theia users 12128 Jan 16 06:19 dashboard.html
+-rw-r--r-- 1 theia users  1008 Jan 16 06:21 error.html
+
+./src/test:
+total 4
+drwxr-sr-x 3 theia users 4096 Jan 16 05:33 java
+
+./src/test/java:
+total 4
+drwxr-sr-x 3 theia users 4096 Jan 16 05:33 com
+
+./src/test/java/com:
+total 4
+drwxr-sr-x 3 theia users 4096 Jan 16 05:33 retailstore
+
+./src/test/java/com/retailstore:
+total 4
+drwxr-sr-x 2 theia users 4096 Jan 16 05:33 feedback
+
+./src/test/java/com/retailstore/feedback:
+total 4
+-rw-r--r-- 1 theia users 225 Jan 16 05:33 FeedbackServiceApplicationTests.java
+
+./target:
+total 23924
+drwxr-sr-x 4 theia users     4096 Jan 16 06:25 classes
+-rw-r--r-- 1 theia users 24445905 Jan 16 06:25 feedback-service-0.0.1-SNAPSHOT.jar
+-rw-r--r-- 1 theia users    17071 Jan 16 06:25 feedback-service-0.0.1-SNAPSHOT.jar.original
+drwxr-sr-x 3 theia users     4096 Jan 16 06:25 generated-sources
+drwxr-sr-x 3 theia users     4096 Jan 16 06:25 generated-test-sources
+drwxr-sr-x 2 theia users     4096 Jan 16 06:25 maven-archiver
+drwxr-sr-x 3 theia users     4096 Jan 16 06:25 maven-status
+drwxr-sr-x 2 theia users     4096 Jan 16 06:25 surefire-reports
+drwxr-sr-x 3 theia users     4096 Jan 16 06:25 test-classes
+
+./target/classes:
+total 12
+-rw-r--r-- 1 theia users  341 Jan 16 06:25 application.properties
+drwxr-sr-x 3 theia users 4096 Jan 16 06:25 com
+drwxr-sr-x 2 theia users 4096 Jan 16 06:25 templates
+
+./target/classes/com:
+total 4
+drwxr-sr-x 3 theia users 4096 Jan 16 06:25 retailstore
+
+./target/classes/com/retailstore:
+total 4
+drwxr-sr-x 4 theia users 4096 Jan 16 06:25 feedback
+
+./target/classes/com/retailstore/feedback:
+total 12
+-rw-r--r-- 1 theia users  782 Jan 16 06:25 FeedbackServiceApplication.class
+drwxr-sr-x 2 theia users 4096 Jan 16 06:25 model
+drwxr-sr-x 2 theia users 4096 Jan 16 06:25 service
+
+./target/classes/com/retailstore/feedback/model:
+total 12
+-rw-r--r-- 1 theia users 1363 Jan 16 06:25 EnhancedFeedback.class
+-rw-r--r-- 1 theia users 1922 Jan 16 06:25 FeedbackEntry.class
+-rw-r--r-- 1 theia users 2206 Jan 16 06:25 FeedbackSummary.class
+
+./target/classes/com/retailstore/feedback/service:
+total 20
+-rw-r--r-- 1 theia users 9904 Jan 16 06:25 FeedbackService.class
+-rw-r--r-- 1 theia users 5606 Jan 16 06:25 GeminiService.class
+
+./target/classes/templates:
+total 16
+-rw-r--r-- 1 theia users 12128 Jan 16 06:25 dashboard.html
+-rw-r--r-- 1 theia users  1008 Jan 16 06:25 error.html
+
+./target/generated-sources:
+total 4
+drwxr-sr-x 2 theia users 4096 Jan 16 06:25 annotations
+
+./target/generated-sources/annotations:
+total 0
+
+./target/generated-test-sources:
+total 4
+drwxr-sr-x 2 theia users 4096 Jan 16 06:25 test-annotations
+
+./target/generated-test-sources/test-annotations:
+total 0
+
+./target/maven-archiver:
+total 4
+-rw-r--r-- 1 theia users 75 Jan 16 06:25 pom.properties
+
+./target/maven-status:
+total 4
+drwxr-sr-x 4 theia users 4096 Jan 16 06:25 maven-compiler-plugin
+
+./target/maven-status/maven-compiler-plugin:
+total 8
+drwxr-sr-x 3 theia users 4096 Jan 16 06:25 compile
+drwxr-sr-x 3 theia users 4096 Jan 16 06:25 testCompile
+
+./target/maven-status/maven-compiler-plugin/compile:
+total 4
+drwxr-sr-x 2 theia users 4096 Jan 16 06:25 default-compile
+
+./target/maven-status/maven-compiler-plugin/compile/default-compile:
+total 8
+-rw-r--r-- 1 theia users 324 Jan 16 06:25 createdFiles.lst
+-rw-r--r-- 1 theia users 693 Jan 16 06:25 inputFiles.lst
+
+./target/maven-status/maven-compiler-plugin/testCompile:
+total 4
+drwxr-sr-x 2 theia users 4096 Jan 16 06:25 default-testCompile
+
+./target/maven-status/maven-compiler-plugin/testCompile/default-testCompile:
+total 8
+-rw-r--r-- 1 theia users  63 Jan 16 06:25 createdFiles.lst
+-rw-r--r-- 1 theia users 107 Jan 16 06:25 inputFiles.lst
+
+./target/surefire-reports:
+total 28
+-rw-r--r-- 1 theia users 22050 Jan 16 06:25 TEST-com.retailstore.feedback.FeedbackServiceApplicationTests.xml
+-rw-r--r-- 1 theia users   362 Jan 16 06:25 com.retailstore.feedback.FeedbackServiceApplicationTests.txt
+
+./target/test-classes:
+total 4
+drwxr-sr-x 3 theia users 4096 Jan 16 06:25 com
+
+./target/test-classes/com:
+total 4
+drwxr-sr-x 3 theia users 4096 Jan 16 06:25 retailstore
+
+./target/test-classes/com/retailstore:
+total 4
+drwxr-sr-x 2 theia users 4096 Jan 16 06:25 feedback
+
+./target/test-classes/com/retailstore/feedback:
+total 4
+-rw-r--r-- 1 theia users 580 Jan 16 06:25 FeedbackServiceApplicationTests.class
